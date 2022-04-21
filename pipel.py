@@ -45,7 +45,7 @@ def model_validation(**context):
     # Print classification report
     print("\n" + classification_report(y_test, pred_rfc))
 
-    mlflow.set_tracking_uri("http://127.0.0.1:5000")
+    mlflow.set_tracking_uri("http://161.189.107.57:5000")
 
     with mlflow.start_run():
         (rmse, mae, r2) = eval_metrics(y_test, pred_rfc)
