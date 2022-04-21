@@ -58,3 +58,6 @@ def model_validation(**context):
             artifact_path="model",
             registered_model_name="IrisModel",
         )
+
+if __name__ == "__main__":
+    model_validation()
