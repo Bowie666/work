@@ -18,7 +18,7 @@ def eval_metrics(actual, pred):
 def model_validation(**context):
     """Model validation"""
 
-    module_path = "/opt/airflow/config"
+    module_path = "/home/ec2-user/work"
     # module_path = os.path.dirname(__file__)
     filename = os.path.join(module_path, 'iris.csv')
     # filename = '/Users/bowie/Documents/vsfile/u-test/iris.csv'
